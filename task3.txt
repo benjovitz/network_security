@@ -1,0 +1,3 @@
+grep Dec/2019 access.log | wc -l | tee task3.txt
+
+126317

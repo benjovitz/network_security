@@ -1,0 +1,4 @@
+grep -v GET |cut -d " " -f1 access.log | uniq | wc -l | tee task1.txt
+
+
+537304

@@ -1,0 +1,22 @@
+Locate a “fast retransmit” packet. What is that?
+124
+
+fast retransmit resumes from the lost packet
+
+Find packets with “spurious retransmissions”. What is that?
+136
+
+a retransmitted packet
+
+Find packets that are out of order. Why is that happening?
+16139
+
+some packet loss
+
+How does wireshark identify that a segment has been lost? Find the filter. What do you think happened?
+tcp.analysis.ack_lost_segment
+segment wasnt captured, says its common in start of transmission in wireshark
+
+Find the “duplicate acks”. Why does that happen?
+
+server sends dup ack of the last packet recieved

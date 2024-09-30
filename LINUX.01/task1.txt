@@ -1,4 +1,3 @@
-grep -v GET |cut -d " " -f1 access.log | uniq | wc -l | tee task1.txt
+cut -d" " -f1  access.log | sort | uniq | wc -w
 
-
-537304
+76497

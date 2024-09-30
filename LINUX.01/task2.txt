@@ -1,3 +1,3 @@
-grep -v GET access.log |cut -d " " -f1 | uniq | wc -l | tee task2.txt
+cut -d " " -f1,6 access.log | grep -v GET | sort | uniq | wc -l
 
-198208
+20455
